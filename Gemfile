@@ -44,5 +44,11 @@ group :development, :test do
 
   # For Windows development
   gem 'tzinfo-data'
+
+  # Bring color to RED/GREEN tests
+  gem 'minitest-reporters'
+
+  # Filtering the backtrace for easing the testing
+  gem 'mini_backtrace'
 end
 
