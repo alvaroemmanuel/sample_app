@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0.beta2'
+gem 'rails', '4.2.0.rc2'
 # Use bcrypt for digest password
 gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
@@ -54,5 +54,8 @@ group :development, :test do
 
   # Filtering the backtrace for easing the testing
   gem 'mini_backtrace'
+
+  # Seed users
+  gem 'faker'
 end
 
