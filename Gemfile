@@ -33,6 +33,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Pagination
+
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 # Styling
 gem 'bootstrap-sass'
 
